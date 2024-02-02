@@ -1,0 +1,14 @@
+body{
+    background-image: url('fondoTarea.png');
+    background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding: 50px;
+      height: 100%;
+}
+@media (max-width: 600px) {
+  body {
+      height: 1000px;
+      background-image: url('fondoMovil2.png'); 
+  }
+}
